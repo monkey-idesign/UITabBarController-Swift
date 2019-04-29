@@ -14,7 +14,8 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let userProController = UserProController()
+        let layout = UICollectionViewFlowLayout()
+        let userProController = UserProController(collectionViewLayout: layout)
         let navController = UINavigationController(rootViewController: userProController)
         
         viewControllers = [navController]

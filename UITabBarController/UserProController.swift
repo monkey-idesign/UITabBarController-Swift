@@ -8,10 +8,10 @@
 
 import UIKit
 
-class UserProController: UIViewController {
+class UserProController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor.blue
+        collectionView?.backgroundColor = .green
     }
 }
