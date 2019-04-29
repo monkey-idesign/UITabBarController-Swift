@@ -14,7 +14,12 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        view.backgroundColor = UIColor.green
+        let blueVC = UIViewController()
+        blueVC.view.backgroundColor = .blue
+        
+        let navController = UINavigationController(rootViewController: blueVC)
+        
+        viewControllers = [navController]
     }
 
 
