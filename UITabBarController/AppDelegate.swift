@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         window = UIWindow()
-        window?.rootViewController = UITabBarController()
+        window?.rootViewController = MainTabBarController()
         
         return true
     }
