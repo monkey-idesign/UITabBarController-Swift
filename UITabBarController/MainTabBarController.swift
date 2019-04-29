@@ -18,9 +18,11 @@ class MainTabBarController: UITabBarController {
         let userProController = UserProController(collectionViewLayout: layout)
         let navController = UINavigationController(rootViewController: userProController)
         
+        navController.tabBarItem.image = UIImage(named: "profile_unselected")
+        navController.tabBarItem.selectedImage = UIImage(named: "profile_selected")
+        
         viewControllers = [navController]
     }
-
-
+    
 }
 
