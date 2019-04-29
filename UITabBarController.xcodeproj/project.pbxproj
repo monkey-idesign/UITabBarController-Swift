@@ -14,6 +14,7 @@
 		185B58A12277311700FA6BE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185B589F2277311700FA6BE1 /* LaunchScreen.storyboard */; };
 		185B58AC2277311700FA6BE1 /* UITabBarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B58AB2277311700FA6BE1 /* UITabBarControllerTests.swift */; };
 		185B58B72277311700FA6BE1 /* UITabBarControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B58B62277311700FA6BE1 /* UITabBarControllerUITests.swift */; };
+		185B58C5227737BD00FA6BE1 /* UserProController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B58C4227737BD00FA6BE1 /* UserProController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		185B58B22277311700FA6BE1 /* UITabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185B58B62277311700FA6BE1 /* UITabBarControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarControllerUITests.swift; sourceTree = "<group>"; };
 		185B58B82277311700FA6BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185B58C4227737BD00FA6BE1 /* UserProController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				185B589D2277311700FA6BE1 /* Assets.xcassets */,
 				185B589F2277311700FA6BE1 /* LaunchScreen.storyboard */,
 				185B58A22277311700FA6BE1 /* Info.plist */,
+				185B58C4227737BD00FA6BE1 /* UserProController.swift */,
 			);
 			path = UITabBarController;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				185B58992277311600FA6BE1 /* MainTabBarController.swift in Sources */,
+				185B58C5227737BD00FA6BE1 /* UserProController.swift in Sources */,
 				185B58972277311600FA6BE1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
